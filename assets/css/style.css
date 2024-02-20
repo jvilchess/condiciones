@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    text-align: center;
+    background: rgba(0,0,0,0.7);
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.header a{
+    color: white;
+    font-size: 30px;
+}
+/*Primer desafio */
+#section1{
+    background-color: rgb(212, 219, 217);
+    text-align: center;
+}
+
+/*Segundo desafio*/
+#page{
+    background-color:azure;
+}
+
+#body2
+{
+    background-image: url(https://images2.alphacoders.com/690/690857.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+#st{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+
+#st img
+{
+    height: 350px;
+    width: auto;
+}
+
+#st input
+{
+    font-size: 30px;
+    border: 3px solid chocolate;
+}
+
+.resultado
+{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: rgba(0,0,0,0.7);
+    text-align: center;
+    color: aliceblue;
+    font-size: 30px;
+}
+
+.resultado button
+{
+    background-color:aquamarine;
+    font-size: 30px;
+    border-radius: 20px;
+    text-align: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.body3
+{
+    height: 100vh;
+    background-image: url(https://lh3.googleusercontent.com/proxy/phvhxz7j0DQ8PNYeIUulSshuZeHVuISOpnD9C9obUxFJNh9mbOOT82zZMxLDrFTQhrcuk4q63RoP3UIJnhyX0Mj6rkOsvUOx5VRNgjglaS2AVqIZ9Qa7zW9ODVvV286QHZk_yUUOxfA2vKDO);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.opciones
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 15px;
+}
+
+.opciones select
+{
+    font-size: 30px;
+    border: 3px solid blueviolet;
+}
+
+.verificar
+{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: rgba(0,0,0,0.7);
+    text-align: center;
+    color: aliceblue;
+    font-size: 30px;
+}
+
+.verificar button
+{
+    background-color:aquamarine;
+    font-size: 30px;
+    border-radius: 20px;
+    text-align: center;
+    justify-content: center;
+    padding: 10px;
+}
